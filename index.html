@@ -13,26 +13,26 @@
 </head>
 <body>
     <header class="header">
-        <div class="container"> 
-        <a href="#" lang="en" class="logo link">Web<span class="logo-part">Studio</span></a>
-         <nav>
-          <ul class="list">
-            <li>
-              <a href="#" class="site-nav link">Студия</a>
+        <div class="container one-line"> 
+         <a href="#" lang="en" class="logo link logomg">Web<span class="logo-part">Studio</span></a>
+         <nav class="header-nav">
+          <ul class="nav-list list">
+            <li class="item">
+              <a href="#" class="site-nav link current">Студия</a>
             </li>
-            <li>
+            <li class="item">
                 <a href="./portfolio.html" class="site-nav link">Портфолио</a>
             </li>
-            <li> 
+            <li class="item"> 
                 <a href="#" class="site-nav link">Контакты</a>
             </li>
           </ul>
          </nav>
-         <ul class="list">
-            <li>
+         <ul class="links list">
+            <li class="item">
                 <a href="mailto:info@devstudio.com" class="nav-link link">info@devstudio.com</a>
             </li>
-            <li>
+            <li class="links-item item">
                 <a href="tel:+380961111111" class="nav-link link">+38 096 111 11 11</a>
             </li>
          </ul>
@@ -46,22 +46,22 @@
         </div>
         </section>
         <section class="particulars" >
-            <div class="container">
+            <div class="container particulars-list">
             <h2 hidden>Particular-qualities</h2>
-        <ul class="list">
-            <li>
+        <ul class="particulars-list list">
+            <li class="particulars-item">
                 <h3 class="Particular-qualities-title">Внимание к деталям</h3>
                 <p class="Particular-qualities-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
             </li>
-            <li>
+            <li class="particulars-item">
                 <h3 class="Particular-qualities-title">Пунктуальность</h3>
                 <p class="Particular-qualities-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
             </li> 
-            <li>
+            <li class="particulars-item">
                 <h3 class="Particular-qualities-title">Планирование</h3>
                 <p class="Particular-qualities-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
             </li>
-            <li>
+            <li class="particulars-item">
                 <h3 class="Particular-qualities-title">Современные технологии</h3>
                 <p class="Particular-qualities-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
             </li>
@@ -71,19 +71,19 @@
         <section class="doing">
             <div class="container">
             <h2 class="doing-title">Чем мы занимаемся</h2>
-             <ul class="list">
-                <li> 
-                    <img src="./img/doing1.jpg" alt="software-development"
+             <ul class="doing-list list">
+                <li class="doing-item"> 
+                    <img class="doing-img" src="./img/doing1.jpg" alt="software-development"
                     width="370" 
                     height="294" >                     
                 </li>
-                <li> 
-                    <img src="./img/doing2.jpg" alt="mobile-app-testing"
+                <li class="doing-item"> 
+                    <img class="doing-img" src="./img/doing2.jpg" alt="mobile-app-testing"
                     width="370" 
                     height="294" >                     
                 </li>
-                <li> 
-                    <img src="./img/doing3.jpg" alt="working-with-color-palette"
+                <li class="doing-item"> 
+                    <img class="doing-img" src="./img/doing3.jpg" alt="working-with-color-palette"
                     width="370" 
                     height="294" >                     
                 </li>
@@ -91,9 +91,10 @@
              </div>
         </section>
         <section class="section-team">
+            <div class="container">
             <h2 class="team-title">Наша команда</h2>
             <ul class="team-list list">
-                <li> 
+                <li class="team-item"> 
                     <div class="container-team-back"> 
                     <img src="./img/photo_team1.jpg" alt="product_designer"
                     width="270" 
@@ -102,7 +103,7 @@
                     <p lang="en" class="team-text">Product Designer</p>
                     </div>
                 </li>
-                <li> 
+                <li class="team-item"> 
                     <div class="container-team-back">
                     <img src="./img/photo_team2.jpg" alt="frontend_developer"
                     width="270" 
@@ -111,7 +112,7 @@
                     <p lang="en" class="team-text">Frontend Developer</p>
                     </div>
                 </li>
-                <li> 
+                <li class="team-item"> 
                     <div class="container-team-back">
                     <img src="./img/photo_team3.jpg" alt="marketing"
                     width="270" 
@@ -120,7 +121,7 @@
                     <p lang="en" class="team-text">Marketing</p>
                     </div>
                 </li>
-                <li> 
+                <li class="team-item"> 
                     <div class="container-team-back">
                     <img src="./img/photo_team4.jpg" alt="UI_Designer"
                     width="270" 
@@ -130,21 +131,24 @@
                     </div>
                 </li>
             </ul>
+            </div>
         </section>        
     </main>
     <footer class="footer">
-            <a href="#" lang="en" class="logo link">Web<span class="part-second">Studio</span></a>
+        <div class="container">
+            <a href="#" lang="en" class="logo foot link">Web<span class="part-second">Studio</span></a>
             <address class="address-section">
                 <p class="address-text">г. Киев, пр-т Леси Украинки, 26</p>
                 <ul class="list">
-                    <li>
+                    <li class="list-item-footer">
                         <a href="mailto:info@example.com" class="foot-link link">info@example.com</a>
                     </li>
-                    <li>
-                        <a href="tel:+380991111111" class="foot-link link">+38 099 111 11 11</a>
+                    <li class="list-item-footer">
+                        <a href="tel:+380991111111" class="foot-link last link">+38 099 111 11 11</a>
                     </li>                   
                 </ul>
-                 </address>         
+                 </address> 
+        </div>        
     </footer>
 </body>
 </html>
