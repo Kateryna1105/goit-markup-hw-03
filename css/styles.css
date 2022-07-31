@@ -40,8 +40,7 @@ body {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    outline: 2px solid red;
-}
+    }
 
 .header {
 padding-top: 24px;
@@ -49,6 +48,7 @@ padding-top: 24px;
 
 .portfolio {
     margin-bottom: 94px;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .logo {
@@ -217,7 +217,7 @@ max-width: 270px;
 }
 
 .doing {
-    margin-bottom: 94px;
+    padding-bottom: 94px;
 }
 
 .doing-img {
@@ -342,11 +342,6 @@ padding-bottom: 60px;
 background: #2F303A;
 }
 
-/* .sect-filtr-buttons {
-padding-top: 94px;
-padding-bottom: 215px;
-} */
-
 .sect-filtr-buttons {
 margin-bottom: 94px;
 }
@@ -403,11 +398,11 @@ border: none;
 }
 
 .portfolio-title {
-    margin-top: 20px;
+    padding-top: 20px;
     margin-bottom: 4px;
-    padding-left: 24px;
+    margin-left: 24px;
 
-    font-weight: 700;
+   font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -415,12 +410,18 @@ border: none;
 }
 
 .portfolio-text {
-padding-left: 24px;
+margin-left: 24px;
 margin-bottom: 20px;
 font-size: 16px;
 line-height: 1.88;
 color:var(--text-color);
 }
 
+.border-portfolio {
+border-bottom: 1px solid #EEEEEE;
+border-left: 1px solid #EEEEEE;
+border-right: 1px solid #EEEEEE;
+}
+ 
 
 
