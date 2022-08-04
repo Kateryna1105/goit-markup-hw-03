@@ -121,6 +121,7 @@ text-decoration: none;
 }
 
 .nav-link {
+display: flex;
 padding-top: 32px;
 padding-bottom: 32px;
 font-weight: 500;
@@ -218,7 +219,6 @@ max-width: 270px;
 
 .doing-img {
 display: block;    
-padding-bottom: 0;
 }
 
 .doing-list {
@@ -262,6 +262,8 @@ background: #F5F4FA;
 
 .img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .section-team {
@@ -339,7 +341,6 @@ color: #2196F3
 
 
 .footer{
-padding-top: 60px;
 padding-bottom: 60px;
 background: #2F303A;
 }
